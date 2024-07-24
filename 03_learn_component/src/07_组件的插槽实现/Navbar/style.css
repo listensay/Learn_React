@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+}
+
+.navbar div {
+    flex: 1;
+}
+
+.navbar .left {
+    background-color: skyblue;
+}
+
+.navbar .right {
+    background-color: aqua;
+}
+
+.navbar .center {
+    background-color: orange;
+}
