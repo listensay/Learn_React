@@ -1,0 +1,2 @@
+export const ADD_NUMBER_TYPE = 'ADD_NUMBER'
+export const SUB_NUMBER_TYPE = 'SUB_NUMBER'
