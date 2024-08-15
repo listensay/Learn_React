@@ -1,7 +1,9 @@
 import * as actionType from './constants'
 
 const init = {
-  counter: 100
+  counter: 100,
+  recommends: [],
+  banners: []
 }
 
 function reducer(state = init, action) {
@@ -16,6 +18,16 @@ function reducer(state = init, action) {
       return {
         ...state,
         counter: state.counter + action.num
+      }
+    case actionType.BANNERS_TYPE:
+      return {
+        ...state,
+        banners: action.banners
+      }
+    case actionType.RECOMMENDS_TYPE:
+      return {
+        ...state,
+        recommends: action.recommends
       }
 
     default:
