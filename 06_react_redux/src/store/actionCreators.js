@@ -35,7 +35,6 @@ export const fetchHomeDataAction = () => {
       const banners = result.data.data.banner.list
       const recommends = result.data.data.recommend.list
   
-      console.log('first')
       dispatch(changeBannersAction(banners))
       dispatch(changeRecommendsAction(recommends))
   }
