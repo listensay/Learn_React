@@ -1,8 +1,0 @@
-.page {
-  display: flex;
-}
-
-.page > div {
-  flex: 1;
-  border: 5px solid red;
-}
