@@ -1,0 +1,23 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 40px;
+  text-align: center;
+}
+
+.item {
+  flex: 1;
+}
+
+.item.active span{
+  padding: 8px;
+  font-weight: bold;
+  color: red;
+  border-bottom: 2px solid red;
+}
